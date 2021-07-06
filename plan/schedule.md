@@ -16,3 +16,4 @@
 | Day | Done |
 |---|---|
 |1 | learned Python the Hard Way|
+|2| Python the Hard Way and first video|
