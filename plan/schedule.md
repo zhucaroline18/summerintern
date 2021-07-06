@@ -9,6 +9,10 @@
 |4 | learned git|
 |5 | learned command line|
 |6 | learned Python the Hard Way|
+|7| learned Python the Hard Way|
 
 
 ## WEEK 2
+| Day | Done |
+|---|---|
+|1 | learned Python the Hard Way|
