@@ -18,3 +18,7 @@
 |1 | learned Python the Hard Way|
 |2| Python the Hard Way and first and second video|
 |3| Learn more Python, third and fourth video|
+|4| Learn more Python, read websites|
+|5| Learn SLL and DLL in Python|
+|6| Learn Dictionaries and start videos|
+|7| Watch second video|
