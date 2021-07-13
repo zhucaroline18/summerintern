@@ -22,3 +22,9 @@
 |5| Learn SLL and DLL in Python|
 |6| Learn Dictionaries and start videos|
 |7| Watch second video|
+
+
+## WEEK 3
+| Day | Done |
+|---|---|
+|1 |Perceptron coding train and modules|
