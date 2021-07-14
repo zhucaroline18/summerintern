@@ -27,4 +27,5 @@
 ## WEEK 3
 | Day | Done |
 |---|---|
-|1 |Perceptron coding train and modules|
+|1 | Perceptron coding train and matrix NumPy|
+|2| Creating own perceptron|
