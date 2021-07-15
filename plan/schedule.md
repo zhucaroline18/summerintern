@@ -29,3 +29,4 @@
 |---|---|
 |1 | Perceptron coding train and matrix NumPy|
 |2| Creating own perceptron|
+|3| Watched 10.4 and 10.5 NN videos |
