@@ -33,3 +33,4 @@
 |4| break|
 |5| coding train matrix video|
 |6| coding train forward and backpropogation videos|
+|7| starting Samson turorial neural network from scratch|
