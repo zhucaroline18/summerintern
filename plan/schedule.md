@@ -32,3 +32,4 @@
 |3| Watched 10.4 and 10.5 NN videos |
 |4| break|
 |5| coding train matrix video|
+|6| coding train forward and backpropogation videos|
