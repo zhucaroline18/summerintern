@@ -40,3 +40,4 @@
 | Day | Done |
 |---|---|
 |1 | building own neural network and meeting|
+|2 | own neural network again|
