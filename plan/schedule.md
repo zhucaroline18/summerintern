@@ -41,3 +41,5 @@
 |---|---|
 |1 | building own neural network and meeting|
 |2 | own neural network again|
+|3 | trying to learn pytorch|
+|4 |trying to learn more pytorch|
