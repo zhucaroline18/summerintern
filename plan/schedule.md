@@ -43,3 +43,10 @@
 |2 | own neural network again|
 |3 | trying to learn pytorch|
 |4 |trying to learn more pytorch|
+
+
+## WEEK 5
+| Day | Done |
+|---|---|
+|1 | Learning PyTorch|
+|2 | Watching PyTorch videos and Learning more PyTorch|
