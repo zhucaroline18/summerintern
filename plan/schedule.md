@@ -52,3 +52,5 @@
 |2 | Watching PyTorch videos and Learning more PyTorch|
 |3 | javacert and more PyTorch Videos|
 |4 | javacert and PyTorch|
+|5 | PyTorch MNIST|
+|6 | PyTorch MNIST and intro to project|
