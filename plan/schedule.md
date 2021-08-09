@@ -42,7 +42,10 @@
 |1 | building own neural network and meeting|
 |2 | own neural network again|
 |3 | trying to learn pytorch|
-|4 |trying to learn more pytorch|
+|4 | trying to learn more pytorch|
+|5 | break|
+|6 | pytorch videos|
+|7 | pytorch videos|
 
 
 ## WEEK 5
@@ -54,3 +57,4 @@
 |4 | javacert and PyTorch|
 |5 | PyTorch MNIST|
 |6 | PyTorch MNIST and intro to project|
+|7 | watching convolutional nn videos |
