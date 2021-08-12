@@ -58,3 +58,22 @@
 |5 | PyTorch MNIST|
 |6 | PyTorch MNIST and intro to project|
 |7 | watching convolutional nn videos |
+
+## WEEK 6
+| Day | Done |
+|---|---|
+|1 | watch more convolutional nn videos|
+|2 | questions on convolutional nn|
+|3 | questions on convolutional nn|
+|4 | break |
+|5 | data loading |
+|6 | data loading |
+|7 | training |
+
+## WEEK 7
+| Day | Done |
+|1 | convolutional network lookover|
+|2 | convolutional network questions answered|
+|3 | testing the data and training|
+|4 | getting accuracy |
+|5 | fixing things and improving|
