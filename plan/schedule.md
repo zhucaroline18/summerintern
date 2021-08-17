@@ -72,6 +72,7 @@
 
 ## WEEK 7
 | Day | Done |
+|---|---|
 |1 | convolutional network lookover|
 |2 | convolutional network questions answered|
 |3 | testing the data and training|
