@@ -2,4 +2,4 @@
 
 This summer.
 
-[Matrix](./Week 3/perceptron/matrices.py)
+[Matrix](./Week%203/perceptron/matrices.py)
