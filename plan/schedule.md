@@ -78,3 +78,10 @@
 |3 | testing the data and training|
 |4 | getting accuracy |
 |5 | fixing things and improving|
+|6 | testing different|
+|7 | testing |
+
+## WEEK 8
+|Day | Done|
+|---|---|
+|1 | documentation and organization|

@@ -1,13 +1,12 @@
-3rd week
-Learn NumPy
-If you get error that numpy is not defined, please run
-```
-{
-    pip install numpy
-}
-```
-Try the following code to understand the NumPy library. You could also try to write your own code to use NumPy library
+# 3rd week
 
+## Learn NumPy
+If you get error that numpy is not defined, please run
+
+pip install numpy 
+
+Try the following code to understand the NumPy library. You could also try to write your own code to use NumPy library
+``` python 
 import numpy as np
 
 print(np.sum([1,2,3]))
@@ -28,14 +27,19 @@ print(np.add(matrixA, 1))
 print(matrixA)
 
 print(np.array(matrixA))
-Create your own class Matrix, which has
+```
 
+Create your own class Matrix, which has
+```python 
 class Matrix:
     def __init__(self, rows, cols):
         self.rows = rows
         self.cols = cols
         self.data = [[0.0 for j in range(cols)] for i in range(rows)]
+
+```
 and add a few methods on it, so that you could perform dot, add, subtract operations. You will define static methods, for example
+``` python
 
     @staticmethod
     def add(matrixA, matrixB):
@@ -49,14 +53,17 @@ and add a few methods on it, so that you could perform dot, add, subtract operat
             for j in range(matrixA.cols):
                 ret.data[i][j] = matrixA.data[i][j] + matrixB.data[i][j]
         return ret
+```
 And then you could compare your Matrix implementation with numpy implementation.
 
-Perceptron
-Learn the simplest neural network, Perceptron, algorithm and implement it using pure Python https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/
+## Perceptron
+* Learn the simplest neural network, Perceptron, algorithm and implement it using pure Python https://machinelearningmastery.com/implement-perceptron-algorithm-scratch-python/
+
 https://www.youtube.com/watch?v=ntKn5TPHHAk&list=RDCMUCvjgXvBlbQiydffZU7m1_aw&index=4
 
-A sample perceptron is:
 
+A sample perceptron is:
+```python 
 import random
 
 class Perceptron:
@@ -131,12 +138,14 @@ def train_and_predict():
 
 if __name__ == "__main__":
     train_and_predict()
-Understand Neural Network
-Continue to watch the "The Coding Train" series of "Neural Network" to understand Feed Forward and Back Propagation
+```
 
-Also watch https://www.youtube.com/watch?v=w8yWXqWQYmU "Building a neural network FROM SCRATCH", which will help you to understand the Neural Network
+## Understand Neural Network
+* Continue to watch the "The Coding Train" series of "Neural Network" to understand Feed Forward and Back Propagation
 
-Follow the "Building a neural network from scratch" Youtube video and start to rebuild the project.
+* Also watch https://www.youtube.com/watch?v=w8yWXqWQYmU "Building a neural network FROM SCRATCH", which will help you to understand the Neural Network
 
-4th week
-Finish the project by follow the https://www.youtube.com/watch?v=w8yWXqWQYmU "Building a neural network FROM SCRATCH"
+* Follow the "Building a neural network from scratch" Youtube video and start to rebuild the project.
+
+# 4th week
+* Finish the project by follow the https://www.youtube.com/watch?v=w8yWXqWQYmU "Building a neural network FROM SCRATCH"
