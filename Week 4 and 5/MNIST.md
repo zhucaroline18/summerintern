@@ -27,7 +27,7 @@ def load_csv(filename, max_rows):
             if max_rows > 0 and count >= max_rows:
                 break
 
-        return ret
+        return ret 
 
 def load_dataset(filename, max_rows):
     # as we will skip the first row, we need to load one more row from the CSV file

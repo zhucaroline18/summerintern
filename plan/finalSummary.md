@@ -82,7 +82,7 @@ Videos
 
 ### Resources 
 * [Coding Train Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh)
-* week three folder - 
+* Week three [folder](./Week%3)
 * [Samson Perceptron tutorial w/out pytorch](https://www.youtube.com/watch?v=w8yWXqWQYmU) (30 minutes)
 
 ### Findings/Notes
@@ -119,13 +119,26 @@ Rundown of perceptron
 ### Resources 
 * [MNIST Dataset](https://www.kaggle.com/oddrationale/mnist-in-csv)
 * [Samson Perceptron tutorial w/out pytorch](https://www.youtube.com/watch?v=w8yWXqWQYmU) (30 minutes)
-* My MNIST w/out pytorch 
+* [My MNIST code](./Week%204%20and%205/NeuralNetwork/neuralCode.py) w/out pytorch 
 * [PyTorch tutorial Playlist](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4)
 * meeting powerpoint/recording? 
 
 ## Findings/Notes
-* Samson tutorial uses jupiter notebook- confusing- can look at python version in my github 
+* Samson tutorial uses jupiter notebook- can be confusing, instead can look at [my code](./Week%204%20and%205/NeuralNetwork/neuralCode.py)
 * download pytorch
+
+MNIST without pytorch summary
+* 2 layers 
+* use CSV data portion to load the data and test showing the image
+* initialize weights and biases randomly 
+* use ReLu loss function in feed forward algorithm 
+* get prediction of current model with feedforward
+* use softmax to see which number 1-10 it is most likely to be 
+* in one_hot, set specific index to 1 to signify it is the right answer (labels)
+* use backpropogation calculus to see how much to adjust the weights and biases of each layer
+* then change the weights and biases accordingly 
+* in train_and_predict, train the data with feedforward and back_prop functions, then use predict function to predict the answer
+* see how many you got correct in the dataset using for loop
 
 project 
 * using convolutional neural network to identify faults in products 
@@ -143,10 +156,10 @@ project
 |7 | watching convolutional nn videos |
 
 ### Resources
-* [MNIST Dataset](https://www.kaggle.com/oddrationale/mnist-in-csv)
-* MNIST familiarity code 
+* MNIST Dataset [download link](https://www.kaggle.com/oddrationale/mnist-in-csv)
+* [getting familiar with MNIST with numpy](./Week%204%20and%205/MNIST.md)
 * [PyTorch tutorial Playlist](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4)
-* MNIST with pytorch code 
+* MNIST with pytorch [code](./Week%204%20and%205/NeuralNetwork/mnist_with_torch.py) 
 
 ### Findings/Notes 
 

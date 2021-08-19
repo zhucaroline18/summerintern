@@ -123,7 +123,7 @@ class NeuralNetwork:
         #weighted Sum + bias for next layer 
         Z2 = self.W2.dot(A1) + self.b2
 
-        #activation for final output????? (results of the forward prop)
+        #activation for final output (results of the forward prop)
         A2 = softmax(Z2)
 
         return Z1, A1, Z2, A2
