@@ -107,6 +107,6 @@ def check_dataset():
 
 if __name__ == "__main__":
     #train_model()
-    test_model_all()
-    #check_dataset()
+    #test_model_all()
+    check_dataset()
     

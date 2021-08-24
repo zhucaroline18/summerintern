@@ -15,7 +15,7 @@ train_src_image_folder = os.path.join(current_location, "../dataset/train_val_im
 train_label_image_folder = os.path.join(current_location, "../dataset/train_val_image_label/train_image_label/label")
 test_src_image_folder = os.path.join(current_location, "../dataset/train_val_image_label/val_image_label/srcImg")
 test_label_image_folder = os.path.join(current_location, "../dataset/train_val_image_label/val_image_label/val_label")
-
+ 
 batch_size = 2
 image_width = 716//4
 image_height = 920//4
@@ -142,7 +142,7 @@ def train_loop(train_loader, model, criterion, optimizer):
     state = {
         'state_dict': model.state_dict(),
         'optimizer': optimizer.state_dict()
-    } #### what is this???????
+    } 
 
     torch.save(state, os.path.join(current_location, "saved-deeplab-checkpoint.pth"))
 
@@ -178,7 +178,7 @@ def test_model():
     test_loader = DataLoader (dataset = test_dataset, batch_size = 1, shuffle = False) # loading data into batches of one and just straight since not adjusting
     model = torch.load(os.path.join(current_location, "saved-deeplab.pth")) ### maybe putting it in a place???
     
-    model.eval()###????
+    model.eval() # don't use gradients or keep track of derivatives- much faster
     criterion = nn.BCEWithLogitsLoss() #loss function 
     
 
@@ -193,7 +193,7 @@ def test_model():
                 loss = criterion (output, target) #using loss function to calculate how much was correct 
                 print (f"loss = {loss}")
 
-                output_raw = output.squeeze(0) ###???
+                output_raw = output.squeeze(0) 
 
                 output_background = output_raw[0] #first element of array is background
                 output_defect = output_raw[1] #second element is which ones are defect
@@ -273,7 +273,6 @@ def test_model_accuracy():
             image_data = image.squeeze(0)[0] #squeeze first dimension 
             label_data = label.squeeze(0)[1] ###??? squeeze second dimension
 
-            ###??? can i get rid of the if function because target_index is not used?
 
             #the pixels with difference is the ones with different values so we can subtract it and get absolute value of each 
             #then divide this sum which will be the number of pixels different with the amoung of pixels to get amount wrong 
