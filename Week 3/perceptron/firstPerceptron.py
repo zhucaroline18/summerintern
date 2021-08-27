@@ -1,28 +1,32 @@
 import random 
 
+# for perceptron, the machine will guess whether a point given to it is above or below a line. That's it. Very simple.
+# you will have training data with inputs and target outputs 
+# you will have testing data with inputs and target outputs 
+# for this perceptron, just the simple line x = y
+
 class Perceptron:
-    def __init__(self, inputNodeCount):
+    def __init__(self, inputNodeCount):  ## how many nodes do you want for the input
 
-        #question what is random uniform
+        self.weights = [random.uniform(-1,1) for x in range (inputNodeCount)] #setting random weights the machine will learn to adjust it 
+        self.bias = random.uniform(-1,1) #setting a random bias the machine will learn to adjust it 
+        self.learning_rate = 0.04 #setting a learning rate, can adjust yourself to see what it does 
 
-        self.weights = [random.uniform(-1,1) for x in range (inputNodeCount)]
-        self.bias = random.uniform(-1,1)
-        self.learning_rate = 0.04
-
-    def guess(self, inputs):
-        sum = self.bias
+    def guess(self, inputs): 
+        sum = self.bias 
         for i in range (len(self.weights)):
-            sum += self.weights[i]*inputs[i]
+            sum += self.weights[i]*inputs[i] #sum is going to be the sum of all weights * (what's in the inputs)
 
+        #make a guess as to if it's above or below the line 
+        # -1 if below 
+        # 1 if above 
         if (sum<0):
             return -1
-        return 1
+        return 1 
 
     def train(self, inputsAndTargetList):
         sum_error = 0
         for inputsAndTarget in inputsAndTargetList:
-
-            ##question 
 
             inputs = inputsAndTarget[0: len(self.weights)]
             target = inputsAndTarget[-1]
@@ -40,7 +44,7 @@ class Perceptron:
 
 class Point:
 
-    #why set it to none 
+    #labeling some data. it can label itself since this is a simple function of whether it's below the line or not.
 
     def __init__(self, x = None, y = None):
         if (x is None):
@@ -50,8 +54,11 @@ class Point:
         
         self.x = x
         self.y = y
+
+        #if x>y, it is above the line x=y and returns 1
         if x>y:
             self.label = 1
+        #otherwise, it is below the line x=y and returns -1
         else:
             self.label = -1
 
