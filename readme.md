@@ -13,7 +13,7 @@
 |4 | Learned git|
 |5 | Learned command line|
 |6 | Learned Python the Hard Way|
-|7| Learned Python the Hard Way|
+|7 | Learned Python the Hard Way|
 
 ### Resources 
 * Learning python with the book [Learn Python 3 the Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0134692888) 
@@ -90,9 +90,10 @@
 ### Resources 
 * [Coding Train Playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh)
 * [Samson NeuralNetwork tutorial w/out pytorch](https://www.youtube.com/watch?v=w8yWXqWQYmU) (30 minutes)
-* Week three [folder](./Week%203)
-* Code: [perceptron](./Week%203/perceptron/firstPerceptron.py)
-* Code: [self-matrix](./Week%203/perceptron/selfMatrices.py)
+* Code: 
+    * Week three [folder](./Week%203)
+    * [Perceptron](./Week%203/perceptron/firstPerceptron.py)
+    * [Self-matrix](./Week%203/perceptron/selfMatrices.py)
 
 ### Findings/Notes
 
@@ -129,13 +130,14 @@
 
 ### Resources 
 * [Week 4 plan](./Week%204%20and%205/week4plan.md)
-* Week 4 and 5 [folder](./Week%204%20and%205)
 * [MNIST Dataset](https://www.kaggle.com/oddrationale/mnist-in-csv)
 * MNIST Dataset [download link](https://www.kaggle.com/oddrationale/mnist-in-csv)
 * [Samson Perceptron tutorial w/out pytorch](https://www.youtube.com/watch?v=w8yWXqWQYmU) (30 minutes)
 * [PyTorch tutorial Playlist](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4)
 * [Download](https://pytorch.org/) pytorch
-* Code: [My MNIST code](./Week%204%20and%205/NeuralNetwork/neuralCode.py) w/out pytorch 
+* Code: 
+    * Week 4 and 5 [folder](./Week%204%20and%205)
+    * [My MNIST code](./Week%204%20and%205/NeuralNetwork/neuralCode.py) w/out pytorch 
 * Meeting powerpoint/recording? 
 
 ## Findings/Notes
@@ -176,11 +178,12 @@ project
 |7 | Watching convolutional nn videos |
 
 ### Resources
-* Week 4 and 5 [folder](./Week%204%20and%205)
 * [Week 5 plan](./Week%204%20and%205/week5plan.md)
 * [PyTorch tutorial Playlist](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4)
-* Code: [Getting familiar with MNIST with numpy](./Week%204%20and%205/MNIST.md)
-* Code: [MNIST with pytorch](./Week%204%20and%205/NeuralNetwork/mnist_with_torch.py) 
+* Code: 
+    * Week 4 and 5 [folder](./Week%204%20and%205)
+    * [Getting familiar with MNIST with numpy](./Week%204%20and%205/MNIST.md)
+    * [MNIST with pytorch](./Week%204%20and%205/NeuralNetwork/mnist_with_torch.py) 
 
 ### Findings/Notes 
 * Follow along pytorch video exercises (1-10)
@@ -214,13 +217,14 @@ project
 |7 | Training |
 
 ### Resources 
-* [Week 6 plan](./Week%206%20and%207/week6plan.md)
 * Convolutional neural network videos 
     * [Filters](https://www.youtube.com/watch?v=qPKsVAI_W6M)
     * [Max pooling](https://www.youtube.com/watch?v=pRWq_mtuppU&t=860s)
 * [Real Dataset](https://drive.google.com/file/d/1KVBfMk5IBij2u2JGyE-WKG6WkcX_oqOA/view?usp=sharing)
-* Code: [Learn image loading](./Week%206%20and%207/project/source/learn-img.py)
-* Code: [Project code](./Week%206%20and%207/project/source/defect-detection.py)
+* Code: 
+    * [Week 6 plan](./Week%206%20and%207/week6plan.md)
+    * [Learn image loading](./Week%206%20and%207/project/source/learn-img.py)
+    * [Project code](./Week%206%20and%207/project/source/defect-detection.py)
 
 ### Notes
 * Don't worry about implementing filters and max pooling etc, the library will do it for you so very similar to MNIST 
@@ -252,7 +256,8 @@ project
 |7 | Testing |
 
 ### Resources 
-* Code: [Project code](./Week%206%20and%207/project/source/defect-detection.py)
+* Code: 
+    * [Project code](./Week%206%20and%207/project/source/defect-detection.py)
 * accuracy links 
 
 ### Notes
