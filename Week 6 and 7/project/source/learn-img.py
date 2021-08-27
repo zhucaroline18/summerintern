@@ -27,7 +27,7 @@ label_image = Image.open(label_path_full)
 print(label_image.size)
 #label_image.show()
 src_image_data = np.array(src_image, dtype = np.float32)
-src_image_data = src_image_data / 255 
+src_image_data = src_image_data / 255
 
 label_image_data = np.array(label_image, dtype = np.float32)
 print(label_image_data.max())
