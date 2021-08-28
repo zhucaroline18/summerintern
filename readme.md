@@ -1,6 +1,15 @@
 # Summer Intern
 
-## essay thing 
+## Abstract 
+The final purpose of this project was to create a convolutional neural network that could identify damage on a product given training images and labels and testing images and labels. First, I had to learn basics, then getting into actual neural networking and image identification neural network before I could get into convolutional neural networking. Though it was very intimidating at first, I started by watching neural networking videos, then slowly, it started to make sense when I actually tried to implement my very first perceptron. 
+
+Basically, a neural network has a number of layers with a number of neurons which can be adjusted and through each layer, there are weights and baises which, after given feedback from the training data, will adjust accordingly to get the output closer to the actual label as possible. This is done through forward propogation, essentially using linear algebra and matrix multiplication with the weights and biases of each layer, as well as backpropogation, which is essentially keeping track of derivatives so you can use gradient decent calculus to find out how much you need to adjust the weights and biases by. As it turns out, machine learning it is much more machine than learning, and really just has a lot of math involved and using coding to do the brute fore of it. Neural Networking is based off the brain and its neurons and how it learns, and the computer is trying to mimic that kind of learning. 
+
+After getting the basics of a neural network, I had to try to implement it myself, and that starts with the perceptron, the most simple neural network, which is just trying to predict if a given point is above or below a certain line, such as y = x. After that, I moved on to the MNIST dataset, a dataset of 27x27 pixel images of handrawn numbers. The goal is to classify each image a number 0-9. It was difficult using only numpy to do this because it was difficult to calculate the backpropogation and weight and bias adjustments when you have to do the calculus of gradient descent yourself. That's where PyTorch comes in. 
+
+Pytorch was difficult to learn but in essence, it helps with the gradient descent and having to calculate how much to step the weights and biases with backpropogation because it has tensors which can store derivatives and make the steps for you. So I then learned how to implement the MNIST number classification with pytorch
+
+A Convolutional Neural Network has quite a few other things to look at, as you have to classify each pixel as a background, or part of something. This can be done using filters and max pooling and a number of other things, but with the module used, it is actually not overly necessary to understand how it works, though certainly knowing how it works will help you understand what you are doing better. When using the deeplabv3_resnet50 it helps you to implement 50 layers and helps with the convolutional part of the neural network. The main thing really was dealing with data and how to pass it in and format it correctly. The rest is actually quite similar. I learned that you have to train the data quite a bit though to get accurate results and additionally, to try different loss functions or learning rates, and if it taks a long time, you can let it run overnight. 
 
 
 ## WEEK 1- Basics and Preparation 
@@ -258,13 +267,13 @@ project
 ### Resources 
 * Code: 
     * [Project code](./Week%206%20and%207/project/source/defect-detection.py)
-* accuracy links 
 
 ### Notes
 
 **Project Code**
 * Get locations of all the folders 
 * Set `batch_size` (images processed at once), `learning_rate` (subject to change based on experimentation), `epochs` (times you train your data using the training images)
+* You should train it around 60 times honestly. You can leave it running overnight. 
 * For class `ImageDataset` refer to Learn Image Loading above
 * `SegmentationModel`
     * Use the existing `deeplabv3_resnet50` module for convolutional neural networks (no training, the two classes are background or defect)
@@ -292,6 +301,8 @@ project
     * You can print out the results for target_index and test different ones to see how your model is predicting
 * `test_model_accuracy`
     * Calculating the accuracy of the model 
+    * Using intersection(`logical_and`)/union(`logical_or`)
+    * Storing all accuracy in an array so you can find the average, smallest, and largest accuracies
 
 ## WEEK 8- Documentation 
 |Day | Done|

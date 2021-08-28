@@ -20,7 +20,7 @@ batch_size = 2
 image_width = 716//4
 image_height = 920//4
 learning_rate = 0.0001
-num_epochs = 1
+num_epochs = 30
 
 class ImageDataset(Dataset):
 
@@ -289,13 +289,17 @@ def test_model_accuracy():
             if accuracy<smallest_accuracy:
                 smallest_accuracy = accuracy
                 smallest_index = index
+            if index%30==0:
+                print(accuracy)
 
             index = index+1
 
         accuracy_list_np = np.array(accuracy_list) #turning accuracy list into a numpy array to be able to use numpy features easily 
         print (f"Accuracy: min = {accuracy_list_np.min()} at index {smallest_index}, max = {accuracy_list_np.max()} at index {largest_index}")
         print (f"average = {np.average(accuracy_list_np)}")
+
 if __name__=="__main__":
-    #test_model_accuracy()
+    # test_model_accuracy()
     #test_model()
-    train_and_save_model()
+    #train_and_save_model()
+    load_checkpoint_and_train_and_save_model()
