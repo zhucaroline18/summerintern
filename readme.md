@@ -149,7 +149,7 @@ A Convolutional Neural Network has quite a few other things to look at, as you h
     * [My MNIST code](./Week%204%20and%205/NeuralNetwork/neuralCode.py) w/out pytorch 
 * Meeting powerpoint/recording? 
 
-## Findings/Notes
+### Findings/Notes
 
 *[Download](https://pytorch.org/) pytorch
 
