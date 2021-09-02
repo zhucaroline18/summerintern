@@ -1,6 +1,6 @@
 # Summer Intern
 
-## Abstract 
+## Overview
 The final purpose of this project was to create a convolutional neural network that could identify damage on a product given training images and labels and testing images and labels. First, I had to learn basics, then getting into actual neural networking and image identification neural network before I could get into convolutional neural networking. Though it was very intimidating at first, I started by watching neural networking videos, then slowly, it started to make sense when I actually tried to implement my very first perceptron. 
 
 Basically, a neural network has a number of layers with a number of neurons which can be adjusted and through each layer, there are weights and baises which, after given feedback from the training data, will adjust accordingly to get the output closer to the actual label as possible. This is done through forward propogation, essentially using linear algebra and matrix multiplication with the weights and biases of each layer, as well as backpropogation, which is essentially keeping track of derivatives so you can use gradient decent calculus to find out how much you need to adjust the weights and biases by. As it turns out, machine learning it is much more machine than learning, and really just has a lot of math involved and using coding to do the brute fore of it. Neural Networking is based off the brain and its neurons and how it learns, and the computer is trying to mimic that kind of learning. 
